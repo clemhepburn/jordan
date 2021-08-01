@@ -1,0 +1,69 @@
+body {
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(155, 146, 155);
+  background-size: 50%;
+  background-blend-mode: overlay;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+a {
+  color: #F6E4D3;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 60%;
+  padding: 1rem;
+  margin: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  cursor: pointer;
+  background-image: url('./Rectangle.png');
+  background-size: 30%;
+  background-blend-mode: overlay;
+}
+
+.about {
+  border: 2px solid #F6E4D3;
+  background-color: #9AC9AD;
+}
+
+.services { 
+  border: 2px solid #F6E4D3;
+  background-color:#EC8C8C;
+}
+
+.contact {
+  border: 2px solid #F6E4D3;
+  background-color:#5B7798;
+}
+
+.grain {
+  background-image: url('./Rectangle.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+  z-index: -11;
+}
+
+.header-logo {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 10rem;
+  color: #F6E4D3;
+  z-index: -12;
+}
